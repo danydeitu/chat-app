@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Chat from './componentes/Chat';
+import MessageArea from './componentes/MessageArea';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+     
     <Chat />
     <MessageArea />
-      </header>
+     
     </div>
   );
 }
